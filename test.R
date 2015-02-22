@@ -2,7 +2,7 @@
 source("cachematrix.R")
 #
 # generate matrix, and the inverse of the matrix.
-size <- 2000 # size of the matrix edge, don't make this too big
+size <- 1000 # size of the matrix edge, don't make this too big
 mymatrix <- matrix(rnorm(size^2), nrow=size, ncol=size)
 mymatrix.inverse <- solve(mymatrix)
 #

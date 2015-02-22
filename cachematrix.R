@@ -33,7 +33,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## Solve a matrix in a list prepared by makeCacheMatrix
 
 cacheSolve <- function(x, ...) {
-    ## get the inverse of the list x
+    ## get the inverse of the matrix in list x
     inv  <- x$getinverse()
     ## if the cached inverse exists, use it. 
     if(!is.null(inv)) {
